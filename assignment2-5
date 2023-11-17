@@ -1,0 +1,20 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+   int x;
+   printf("Enter value: ");
+   scanf("%d", &x);
+   int y = x/100;
+   int a = x%100;
+   int z =  a/20;
+   int b = a%20;
+   int t = b/10;
+   int c = b%10;
+   int w = c/5;
+   int d = c%5;
+   printf("100 tooman: %d adad, 20 tooman: %d adad, 10 tooman: %d adad, 5 tooman: %d adad, 1 tooman: %d adad", y, z, t, w, d);
+
+    return 0;
+}
